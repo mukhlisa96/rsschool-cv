@@ -1,9 +1,7 @@
 # Mukhlisa Khusanboyeva
-
 ## JS Developer
 
-##Contact info
-
+## Contact info
 #### Phone number
 > +998 90 944 20 25
 
@@ -18,12 +16,12 @@ Aside from my job, I like to create and contribute to open source projects. That
 
 ## Skills
 
--HTML, CSS, JS
--Bootstrap, JQuery
--Wordpress, Woocommerce
--Laravel, Voyager Admin Package
--SQL, PhpMyAdmin
--Git
+- HTML, CSS, JS
+- Bootstrap, JQuery
+- Wordpress, Woocommerce
+- Laravel, Voyager Admin Package
+- SQL, PhpMyAdmin
+- Git
 
 ## Code examples
 
