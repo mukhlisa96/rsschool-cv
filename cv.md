@@ -28,7 +28,7 @@ Aside from my job, I like to create and contribute to open source projects. That
 >https://github.com/mukhlisa96?tab=repositories
 
 ## Experience 
-
+>
 #### OQILA LLC
 
 ##### Front End Developer
@@ -48,12 +48,12 @@ delivered in timely manner
 - Managing reports and necessary documentation
 
 
-
 ## Education 
->INHA UNIVERSITY IN TASHKENT – May 2019
+>
+INHA UNIVERSITY IN TASHKENT – May 2019
 Bachelor of Science in Information and Communication Engineering
 
-> RS School
+RS School
 JS/FE Cource EN 2022
 
 ## English 
