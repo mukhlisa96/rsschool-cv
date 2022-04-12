@@ -51,10 +51,10 @@ delivered in timely manner
 ## Education 
 
 >INHA UNIVERSITY IN TASHKENT – May 2019
-Bachelor of Science in Information and Communication Engineering
+- Bachelor of Science in Information and Communication Engineering
 
 >RS School
-JS/FE Cource EN 2022
+- JS/FE Cource EN 2022
 
 ## English 
 > Upper-Intermediate
