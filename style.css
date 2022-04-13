@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.page-title{
+    text-align: center;
+    height: 25vh;
+    align-items: center;
+}
+
+section{
+    border-top: 1px dashed black;
+    padding: 40px 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: grey;
+    margin: 30px 0;
+    /*text-align: center;*/
+
+    background: linear-gradient(to right, black, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+   
+    /*text-align: center;*/
+}
+
+.footer_ul{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    
+    list-style: none;
+    border-top: 1px solid black;
+    padding: 0;
+}
+
+.rs-logo-container img{
+    height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    main{
+         width: 100%;
+        margin: auto;
+        padding: 20px;
+       
+
+    }
+
+
+
+.footer_ul{
+    flex-direction: column;
+}
+
+
+}
