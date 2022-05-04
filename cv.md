@@ -1,9 +1,7 @@
 # Mukhlisa Khusanboyeva
-
 ## JS Developer
 
-##Contact info
-
+## Contact info
 #### Phone number
 > +998 90 944 20 25
 
@@ -18,12 +16,12 @@ Aside from my job, I like to create and contribute to open source projects. That
 
 ## Skills
 
--HTML, CSS, JS
--Bootstrap, JQuery
--Wordpress, Woocommerce
--Laravel, Voyager Admin Package
--SQL, PhpMyAdmin
--Git
+- HTML, CSS, JS
+- Bootstrap, JQuery
+- Wordpress, Woocommerce
+- Laravel, Voyager Admin Package
+- SQL, PhpMyAdmin
+- Git
 
 ## Code examples
 
@@ -50,13 +48,13 @@ delivered in timely manner
 - Managing reports and necessary documentation
 
 
-
 ## Education 
->INHA UNIVERSITY IN TASHKENT – May 2019
-Bachelor of Science in Information and Communication Engineering
 
-> RS School
-JS/FE Cource EN 2022
+>INHA UNIVERSITY IN TASHKENT – May 2019
+- Bachelor of Science in Information and Communication Engineering
+
+>RS School
+- JS/FE Cource EN 2022
 
 ## English 
 > Upper-Intermediate
