@@ -9,15 +9,17 @@
 <body>
 <header>
 	<div class="logo">
-		<h1 class="logo__h1">Cozy House</h1>
-		<p class="logo__p">Shelter for pets in Boston</p>
-	</div>
+		<a href="">
+        <h1 class="logo__h1">Cozy House</h1>
+        <p class="logo__p">Shelter for pets in Boston</p>
+        </a>	
+    </div>
 	<nav>
 		<ul class="nav__ul">
-			<li class="nav__li active"><a href="#">About the shelter</a></li>
-			<li class="nav__li"><a href="#">Our pets</a></li>
-			<li class="nav__li"><a href="#">Help the shelter</a></li>
-			<li class="nav__li"><a href="#contacts">Contacts</a></li>
+			<li class="nav__li "><a href="../main/index.html">About the shelter</a></li>
+            <li class="nav__li active"><a href="../pets/index.html">Our pets</a></li>
+            <li class="nav__li"><a href="../main/index.html#help">Help the shelter</a></li>
+            <li class="nav__li"><a href="../main/index.html#contacts">Contacts</a></li>
 		</ul>
 
         <div class="collapse_nav">
@@ -91,21 +93,12 @@
 
 <div class="pagination_container">
         <div class="shelter_row">
-            <button disabled class="pag_item">
-                <<
-            </button>
-             <button disabled class="pag_item">
-                <
-            </button>
-             <button class="pag_item pag_num">
-                1
-            </button>
-             <button class="pag_item pag_right">
-                >
-            </button>
-             <button class="pag_item pag_right">
-                >>
-            </button>
+            <button type="button" href="#" disabled="true" class="pag_item"><<</button>
+             <button type="button" href="#" disabled="true" class="pag_item"><</button>
+             <button type="button" href="#" class="pag_item pag_num">1</button>
+             <button type="button" href="#" class="pag_item pag_right">></button>
+             <button type="button" href="#" class="pag_item pag_right">>></button>
+             
         </div>
 
 </div>
@@ -119,19 +112,19 @@
             <div class="col">
                 <h3>For questions<br> and suggestions</h3>
                     <div class="contact_line">
-                        <img class="contact_icon" src="../../assets/icons/icon-email.png"> <h4><span class="footer_span">email@shelter.com</span></h4>
+                        <img class="contact_icon" src="../../assets/icons/icon-email.png"> <h4><span class="footer_span"><a href="mailto:email@shelter.com">email@shelter.com</a></span></h4>
                     </div>
                     <div class="contact_line">
-                        <img class="contact_icon" src="../../assets/icons/phone.png"> <h4><span class="footer_span">+13 674 567 75 54</span></h4>
+                        <img class="contact_icon" src="../../assets/icons/phone.png"> <h4><span class="footer_span"><a href="tel:+13 674 567 75 54">+13 674 567 75 54</a></span></h4>
                     </div>
             </div>
             <div class="col">
                 <h3>We are waiting <br>for your visit</h3>
                     <div class="contact_line">
-                         <img class="contact_icon" src="../../assets/icons/icon-marker.png"> <h4><span class="footer_span"> &nbsp;1 Central Street, Boston<br> &nbsp;(entrance from the store)</span></h4>
+                         <img class="contact_icon" src="../../assets/icons/icon-marker.png"> <h4><span class="footer_span"> &nbsp;<a target="_blank" href="https://goo.gl/maps/Z7DXGuE31BBYTeHB8">1 Central Street, Boston<br> &nbsp;(entrance from the store)</a></span></h4>
                     </div>
                     <div class="contact_line">
-                         <img class="contact_icon" src="../../assets/icons/icon-marker.png"> <h4><span class="footer_span">18 South Park, London </span></h4>
+                         <img class="contact_icon" src="../../assets/icons/icon-marker.png"> <h4><span class="footer_span"><a target="_blank" href="https://goo.gl/maps/Z7DXGuE31BBYTeHB8">18 South Park, London </a></span></h4>
                     </div>
             </div>
             <div class="col"><img class="footer_img" src="../../assets/images/footer-puppy.png"></div>
