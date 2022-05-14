@@ -31,11 +31,16 @@ main{
 header{
     width: 100%;
     height: 120px;
-    display: flex;
-    justify-content: space-between;
+    
     /*padding: 30px 40px;*/
     /*background: white;*/
     margin: 0;
+}
+.header-container{
+    margin: auto;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav{
@@ -104,6 +109,9 @@ nav{
     letter-spacing: 0.1em;
     color: #292929;
 }
+
+
+
 /*header style end*/
 .page_title{
     
@@ -123,6 +131,10 @@ nav{
     text-align: center;
 }
 
+.carousel{
+     margin: auto;
+    max-width: 1280px;
+}
 .card{
     width: 270px;
 height: 435px;
@@ -170,6 +182,10 @@ margin: 15px 0;
     flex-flow: row wrap;
     justify-content: space-around;
 }
+.help{
+    max-width: 1280px;
+    margin: auto;
+}
 .pag_item{
     border: 2px solid #CDCDCD;
 box-sizing: border-box;
@@ -209,6 +225,8 @@ color: black;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+     margin: auto;
+    max-width: 1280px;
 }
 .left-content{
    display: flex;
@@ -272,6 +290,8 @@ padding: 10px 10px;
     display: flex;
     justify-content: space-around;
     padding: 50px;
+     margin: auto;
+    max-width: 1280px;
 }
 
 .about_row{
