@@ -1,1 +1,1 @@
-https://github.com/mukhlisa96/rsschool-cv/blob/rsschool-cv-html/index.html
+https://mukhlisa96.github.io/rsschool-cv/SHELTER/pages/main/
