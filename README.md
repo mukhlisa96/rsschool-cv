@@ -1,1 +1,1 @@
-https://your-github-account.github.io/rsschool-cv/cv
+https://mukhlisa96.github.io/rsschool-cv/SHELTER/pages/main/
