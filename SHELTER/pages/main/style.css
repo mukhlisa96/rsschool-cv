@@ -49,10 +49,10 @@ nav{
 }
 
 .line{
-    width: 25px;
-    height: 3px;
-    background-color: #f1cdb3;
-    margin: 5px;
+    width: 40px;
+height: 2px;
+background-color: #f1cdb3;
+margin: 10px;
 }
 
 
@@ -66,7 +66,7 @@ nav{
     list-style: none;
 }
 
-.nav__li:hover{
+.nav__li:hover, .nav__li:visited{
     border-bottom: 4px solid #F1CDB3;
 
 }
@@ -446,18 +446,22 @@ height: 100%;
         position: absolute;
         right: 0;
         height: 100vh;
-        top: 0;
+        top: -15px;
         background-color: #4c4034;
         display: flex;
         flex-direction: column;
         width: 60%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        justify-content: center
 
     }
 
     .nav__li{
         opacity: 0;
+        font-size: 25px;
+        padding: 10px;
+
     }
 
 
@@ -491,6 +495,7 @@ height: 100%;
 /*nav responsive*/
 .collapse_nav {
   float: right;
+  transition: transform 0.5s ease-in;
 }
 
 .nav-active{
@@ -513,6 +518,11 @@ height: 100%;
      transition: transform 0.5s ease-in;
 }
 
+
+.body.block{
+opacity: 1;
+pointer-events: unset;
+}
 /*.toggle .line1{
     transform: rotate(-90deg);
 }

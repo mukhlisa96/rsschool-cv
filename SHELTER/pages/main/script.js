@@ -2,6 +2,7 @@ const navSlide = () => {
     const burger = document.querySelector('.collapse_nav');
     const nav = document.querySelector('.nav__ul');
     const navLinks = document.querySelectorAll('.nav__ul li');
+    const body = document.querySelector('.body');
 
     burger.addEventListener('click', () => {
 
@@ -21,6 +22,7 @@ const navSlide = () => {
 
         // burger animation
         burger.classList.toggle('toggle');
+        body.classList.toggle('block');
 
     });
 }
