@@ -1,0 +1,395 @@
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+body{
+	padding: 0;
+    margin: 0;
+    background: #F6F6F6;
+
+	
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+}
+
+main{
+    max-width: 1280px;
+    /*background: #86F6F9;*/
+    margin: auto;
+}
+header{
+	width: 100%;
+	height: 120px;
+	
+    background: white;
+
+}
+
+.header-container{
+    margin: auto;
+	
+	max-width: 1280px;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 40px;
+
+}
+
+nav{
+	width: 50%;
+
+}
+
+.line{
+
+    background-color: black;
+    width: 40px;
+    height: 2px;
+    margin: 10px;
+
+}
+.collapse_nav.toggle > .line{
+  background: #F1CDB3;
+}
+
+.nav__ul.nav-active {
+  color: white;
+  position: fixed;
+     z-index: 40;
+}
+
+.nav__ul{
+	font-family: 'Arial';
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0px;
+	list-style: none;
+}
+
+.nav__li:hover{
+	border-bottom: 4px solid #F1CDB3;
+
+}
+
+pag_item.active{
+    border-bottom: 4px solid #F1CDB3;
+
+}
+.nav__li{
+	padding-bottom: 10px;
+}
+.nav__li > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo__h1{
+	margin: 0;
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 110%;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.06em;
+	color: #545454;
+}
+
+.logo__p{
+	margin: 0;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 15px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.1em;
+	color: #292929;
+}
+/*header style end*/
+.page_title{
+	
+	width: 100%;
+	letter-spacing: 0.06em;
+	color: #545454;
+    display: flex;
+    justify-content: center;
+}
+
+.page_title_h3{
+
+	font-family: 'Georgia';
+	font-style: normal;
+	font-size: 35px;
+	line-height: 130%;
+    text-align: center;
+}
+
+.card{
+    width: 270px;
+height: 435px;
+text-align: center;
+background: #FAFAFA;
+border-radius: 9px;
+margin: 15px 0;
+}
+
+.card:hover{
+    cursor: pointer;
+    background: white;
+}
+
+.card:hover >.card_btn{
+    background: #F1CDB3;
+}
+.card_title{
+    font-size: 20px;
+    line-height: 23px;
+}
+.card_btn{
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+
+    align-items: center;
+    padding: 15px 45px;
+    background: #fafafa;
+}
+
+.shelter_container{
+	max-width: 1280px;
+   /*width: 100%;*/
+   margin-right: auto;
+   margin-left: auto;
+   /*background: red;*/
+}
+
+.shelter_row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.pag_item{
+    border: 2px solid #CDCDCD;
+box-sizing: border-box;
+border-radius: 50px;
+color: #CDCDCD;
+padding: 20px;
+margin: 10px;
+background: transparent;
+}
+
+.pag_num{
+    background: #F1CDB3;
+    border: 1px solid #F1CDB3;
+    color: black;
+}
+
+.pag_right{
+border: 2px solid #F1CDB3;
+color: black;
+}
+
+
+.pagination_container{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+
+.btn-round:disabled {
+    pointer-events: none;
+    color: #cdcdcd;
+    border-color: #cdcdcd;
+}
+
+.btn-round.active {
+    background-color: #f1cdb3 !important;
+    border-color: #f1cdb3 !important;
+}
+.btn-round {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: 2px solid #f1cdb3;
+    transition: 0.3s;
+    color: #292929;
+    padding: 5px;
+}
+.btn-round:hover {
+    background-color: #fddcc4;
+    border-color: #fddcc4;
+}
+
+
+footer{
+    background: url(../../assets/images/footer-gradient-background.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #211F20;
+    color: white;
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+
+footer h3{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+
+/* or 45px */
+letter-spacing: 0.06em;
+
+/* color-light-xl */
+color: #FFFFFF;
+}
+
+
+.footer_img{
+    margin: 40px 40px 0 0;
+}
+
+
+.footer_span{
+    font-size: 20px;
+line-height: 115%;
+
+/* identical to box height, or 23px */
+letter-spacing: 0.06em;
+}
+
+.contact_line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #F1CDB3;
+}
+.contact_icon{
+height: 100%;
+}
+
+.collapse_nav{
+    align-self: flex-end;
+}
+@media (min-width:768px) { 
+    .collapse_nav{
+        display: none;
+    }
+/* big landscape tablets, laptops, and desktops */ }
+
+@media only screen and (max-width: 768px) {
+	body{
+        overflow-x: hidden;
+    }
+    .nav__ul{
+        /*display: none;*/
+        position: absolute;
+        right: 0;
+        height: 100vh;
+        top: -15px;
+        background-color: #4c4034;
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        justify-content: flex-start;
+        padding-top: 150px;
+
+    }
+
+    .nav__li{
+        opacity: 0;
+        font-size: 25px;
+        padding: 10px;
+
+    }
+
+
+/*nav end*/
+}
+
+@media only screen and (max-width: 320px) {
+	.nav__ul{
+		display: none;
+	}
+}
+
+
+/*nav responsive*/
+.collapse_nav {
+  float: right;
+  transition: transform 0.5s ease-in;
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.collapse_nav.toggle{
+
+     transform: rotate(-90deg);
+     transition: transform 0.5s ease-in;
+     position: fixed;
+     z-index: 40;
+     right: 40px;
+}
+
+
+.body.block{
+    opacity: 1;
+    pointer-events: unset;
+    overflow-y:hidden;
+}
+
+.blacklayer.toggle{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: block;
+  pointer-events: none;
+  background-color: rgba(41, 41, 41, 0.6);
+  opacity: 0;
+  transition: 0.8s;
+}
