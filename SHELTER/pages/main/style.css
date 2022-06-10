@@ -28,12 +28,18 @@ main{
     /*background: #86F6F9;*/
     margin: auto;
 }
+
+.banner_wrapper{
+background: url(../../assets/images/start-screen-gradient-background.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #211F20;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 header{
     width: 100%;
     height: 120px;
     
-    /*padding: 30px 40px;*/
-    /*background: white;*/
+    padding: 30px 40px;
+    color: white;
     margin: 0;
 }
 .header-container{
@@ -216,9 +222,7 @@ color: black;
 .banner{
     
     width: 100%;
-    background: url(../../assets/images/start-screen-gradient-background.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #211F20;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
     padding: 50px 50px 0 50px;
     color: white;
 }
@@ -428,8 +432,26 @@ height: 100%;
     align-self: flex-end;
     cursor: pointer;
 }
+
+.logo-container.collapse_logo{
+    display: none;
+    transition: transform 0.8s ease-in;
+    }
+
+    .logo-container.collapse_logo.toggle{
+    display: block;
+    transition: transform 1s ease-in;
+    position: absolute;
+right: 20%;
+top: 3%;
+      
+    }
+    .logo-container.collapse_logo.toggle > h1{
+        /*color: red;*/
+    }
+
 @media (min-width:768px) { 
-    .collapse_nav{
+    .collapse_nav, .collapse_logo{
         display: none;
     }
 
@@ -447,10 +469,10 @@ height: 100%;
         right: 0;
         height: 100vh;
         top: -15px;
-        background-color: #4c4034;
+        background-color: #37322e;
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 70%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         justify-content: center
@@ -463,6 +485,8 @@ height: 100%;
         padding: 10px;
 
     }
+
+
 
 
 /*nav end*/
@@ -520,15 +544,6 @@ height: 100%;
 
 
 .body.block{
-opacity: 1;
-pointer-events: unset;
+    opacity: 1;
+    pointer-events: unset;
 }
-/*.toggle .line1{
-    transform: rotate(-90deg);
-}
-.toggle .line2{
-    transform: rotate(-90deg);
-}
-.toggle .line3{
-    transform: rotate(-90deg);
-}*/

@@ -51,11 +51,21 @@ nav{
 }
 
 .line{
-    width: 25px;
-    height: 3px;
+
     background-color: black;
-    margin: 5px;
+    width: 40px;
+    height: 2px;
+    margin: 10px;
+
 }
+.collapse_nav.toggle > .line{
+  background: #F1CDB3;
+}
+
+.nav__ul.nav-active {
+  color: white;
+}
+
 .nav__ul{
 	font-family: 'Arial';
 	display: flex;
@@ -294,13 +304,71 @@ height: 100%;
 /* big landscape tablets, laptops, and desktops */ }
 
 @media only screen and (max-width: 768px) {
-	.nav__ul{
-		display: none;
-	}
+	body{
+        overflow-x: hidden;
+    }
+    .nav__ul{
+        /*display: none;*/
+        position: absolute;
+        right: 0;
+        height: 100vh;
+        top: -15px;
+        background-color: #4c4034;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        justify-content: center
+
+    }
+
+    .nav__li{
+        opacity: 0;
+        font-size: 25px;
+        padding: 10px;
+
+    }
+
+
+/*nav end*/
 }
 
 @media only screen and (max-width: 320px) {
 	.nav__ul{
 		display: none;
 	}
+}
+
+
+/*nav responsive*/
+.collapse_nav {
+  float: right;
+  transition: transform 0.5s ease-in;
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.collapse_nav.toggle{
+
+     transform: rotate(-90deg);
+     transition: transform 0.5s ease-in;
+}
+
+
+.body.block{
+    opacity: 1;
+    pointer-events: unset;
 }
