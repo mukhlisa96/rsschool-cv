@@ -38,12 +38,23 @@ const navSlide = () => {
     });
 
     blacklayer.addEventListener('click', () => {
-    nav.classList.toggle('nav-active');
-    burger.classList.toggle('toggle');
-    collapse_logo.classList.toggle('toggle');
+        nav.classList.toggle('nav-active');
+        burger.classList.toggle('toggle');
+        collapse_logo.classList.toggle('toggle');
         blacklayer.classList.toggle('toggle');
 
   });
+
+
+    navLinks.forEach(el => {
+          el.addEventListener('click', (e) => {
+            burger.classList.toggle('toggle');
+            blacklayer.classList.toggle('toggle');
+          });
+        });
+
+
+
 
 }
 
