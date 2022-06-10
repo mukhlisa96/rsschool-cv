@@ -64,6 +64,8 @@ nav{
 
 .nav__ul.nav-active {
   color: white;
+  position: fixed;
+     z-index: 40;
 }
 
 .nav__ul{
@@ -316,10 +318,11 @@ height: 100%;
         background-color: #4c4034;
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 320px;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        justify-content: center
+        justify-content: flex-start;
+        padding-top: 150px;
 
     }
 
@@ -365,10 +368,28 @@ height: 100%;
 
      transform: rotate(-90deg);
      transition: transform 0.5s ease-in;
+     position: fixed;
+     z-index: 40;
+     right: 40px;
 }
 
 
 .body.block{
     opacity: 1;
     pointer-events: unset;
+    overflow-y:hidden;
+}
+
+.blacklayer.toggle{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: block;
+  pointer-events: none;
+  background-color: rgba(41, 41, 41, 0.6);
+  opacity: 0;
+  transition: 0.8s;
 }
